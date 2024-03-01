@@ -1,23 +1,46 @@
 {
-  "name": "vocabnotion",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.4"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.4"
-  }
+    "name": "vocabnotion",
+    "version": "0.1.0",
+    "author": "@frekans7",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^6.5.1",
+        "@fortawesome/free-solid-svg-icons": "^6.5.1",
+        "@fortawesome/react-fontawesome": "^0.2.0",
+        "@headlessui/react": "^1.7.17",
+        "@iconify/react": "^4.1.1",
+        "@vercel/og": "^0.5.20",
+        "framer-motion": "^10.16.16",
+        "micro-cors": "^0.1.1",
+        "next": "14.0.4",
+        "next-secure-headers": "^2.2.0",
+        "next-seo": "^6.4.0",
+        "next-sitemap": "^4.2.3",
+        "numeral": "^2.0.6",
+        "openai": "^4.20.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-hot-toast": "^2.4.1",
+        "resize-observer-polyfill": "^1.5.1",
+        "uuid": "^9.0.1"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.16",
+        "clsx": "^2.0.0",
+        "eslint": "^8.55.0",
+        "eslint-config-next": "14.0.4",
+        "eslint-config-prettier": "^9.1.0",
+        "postcss": "^8.4.32",
+        "prettier": "^3.1.1",
+        "sass": "^1.69.5",
+        "stylelint": "^16.0.1",
+        "tailwindcss": "^3.3.6",
+        "vitest": "^1.0.4"
+    }
 }
