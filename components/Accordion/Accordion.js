@@ -17,7 +17,7 @@ const accordionData = [
         title: "Who is this template for?",
         isOpen: false,
         content:
-            "This template is for anyone(🌍 🇪🇸) who wants to improve their vocabulary with a proven scientific system."
+            "This template is for anyone who wants to improve their vocabulary with a proven scientific system. Supported Languages: Spanish 🇪🇸 and Turkish 🇹🇷"
     },
     {
         id: uuid(),
