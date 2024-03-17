@@ -3,7 +3,7 @@ import { SectionContainer } from "@components/Section";
 import { PageTitle } from "@components/Title";
 import { Layout } from "@components/Layout";
 import { HomeBanner } from "@components/Banner";
-import { Columns } from "@components/Columns";
+import { Testimonial } from "@components/Testimonial";
 import { ContentImage } from "@components/ContentImage";
 import { Content } from "@components/Content";
 import { Accordion } from "@components/Accordion";
@@ -123,15 +123,15 @@ export default function Home() {
                             id="testimonials"
                             className="benefits"
                         >
-                            <BadgeGroup alignment="left">
+                            <BadgeGroup alignment="center">
                                 <BadgeMessage>Testimonials</BadgeMessage>
                                 <BadgeIcon icon="twemoji:waving-hand" />
                             </BadgeGroup>
-                            <PageTitle className="" type="default">
+                            <PageTitle className="text-center mx-auto" type="default">
                                 This is what our customers have to say about
                                 this template
                             </PageTitle>
-                            <Columns />
+                            <Testimonial />
                         </SectionContainer>
                     </MotionBTTContainer>
                     {/* Accordions */}
@@ -140,7 +140,7 @@ export default function Home() {
                     >
                         <SectionContainer id="faq" className="faq">
                             <BadgeGroup alignment="center">
-                                <BadgeMessage>FAQ</BadgeMessage>
+                                <BadgeMessage>Frequently Asked Questions</BadgeMessage>
                             </BadgeGroup>
                             <PageTitle
                                 className="text-center mx-auto"
