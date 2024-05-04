@@ -6,6 +6,7 @@ import { SectionContainer } from "@components/Section";
 import { PageTitle } from "@components/Title";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
+import Link from "next/link";
 
 export const HomeBanner = () => {
     return (
@@ -35,14 +36,12 @@ export const HomeBanner = () => {
                     <div className="mt-6 mb-16 text-center">
                         <ButtonGroup alignment="center">
                             <Button href="#features">Features</Button>
-                            <a
+                            <Link
+                                href="/purchase"
                                 role="button"
-                                href="https://notioninsider.com/template/vocabnotion"
-                                className="btn btn--secondary"
-                            >
-                                Get Template
-                                <Icon icon="material-symbols:arrow-forward-rounded" />
-                            </a>
+                                className="btn btn--secondary ml-4">
+                                Get Template <Icon icon="material-symbols:arrow-forward-rounded" />
+                            </Link>
                         </ButtonGroup>
                     </div>
                 </MotionBTTContainer>

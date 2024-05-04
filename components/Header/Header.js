@@ -29,14 +29,12 @@ export const Header = () => {
                 <SectionContainer className="flex items-center ml-auto">
                     <Nav />
                     <ButtonGroup className="hidden md:block">
-                        <a
+                        <Link
+                            href="/purchase"
                             role="button"
-                            href="https://notioninsider.com/template/vocabnotion"
-                            className="btn btn--secondary ml-4"
-                        >
-                            Get Template
-                            <Icon icon="material-symbols:arrow-forward-rounded" />
-                        </a>
+                            className="btn btn--secondary ml-4">
+                            Get Template <Icon icon="material-symbols:arrow-forward-rounded" />
+                        </Link>
                     </ButtonGroup>
                 </SectionContainer>
             </SectionContainer>

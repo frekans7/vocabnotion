@@ -69,14 +69,12 @@ export const Footer = () => {
                                 </Link>
                                 {/* Get Template button; remove if not used */}
                                 <ButtonGroup alignment="left">
-                                    <a
+                                    <Link
+                                        href="/purchase"
                                         role="button"
-                                        href="https://notioninsider.com/template/vocabnotion"
-                                        className="btn btn--secondary"
-                                    >
-                                        Get Template
-                                        <Icon icon="material-symbols:arrow-forward-rounded" />
-                                    </a>
+                                        className="btn btn--secondary ml-4">
+                                        Get Template <Icon icon="material-symbols:arrow-forward-rounded" />
+                                    </Link>
                                 </ButtonGroup>
                             </div>
                         </div>
@@ -124,16 +122,6 @@ export const Footer = () => {
                 <div className="wrap wrap-px py-6">
                     <p className="my-0">
                         © {year} VocabNotion. All rights reserved.
-                        {/* <span className="font-normal">
-                            A template by{" "}
-                            <Link
-                                className="transition-colors duration-300 hover:underline"
-                                href="https://github.com/frekans7"
-                                target="_blank"
-                            >
-                                frekans7.
-                            </Link>
-                        </span> */}
                     </p>
                 </div>
             </SectionContainer>
