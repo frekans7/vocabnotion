@@ -35,7 +35,7 @@ const Purchase = () => {
                         width="35"
                         height="40"
                         alt="Notion Insider"
-                        src="notioninsider.png" />
+                        src="notionInsider.png" />
                 </a>
 
             </div>
