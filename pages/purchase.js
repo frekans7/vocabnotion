@@ -25,6 +25,20 @@ const Purchase = () => {
                         src="lemonsqeezy.png" />
                 </a>
                 <a
+                    href="https://frekans7.gumroad.com/l/vocabnotion"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-[#828282] text-white font-semibold py-3 px-16 rounded flex items-center gap-2"
+                >
+
+                    Buy from Gumroad
+                    <Image
+                        width="28"
+                        height="28"
+                        alt="Gumroad"
+                        src="gumroad.png" />
+                </a>
+                <a
                     href="https://notioninsider.com/template/vocabnotion"
                     target="_blank"
                     rel="noopener noreferrer"
