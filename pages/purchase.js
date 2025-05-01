@@ -38,20 +38,6 @@ const Purchase = () => {
                         alt="Gumroad"
                         src="gumroad.png" />
                 </a>
-                <a
-                    href="https://notioninsider.com/template/vocabnotion"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-[#0066ff] text-white font-semibold py-3 px-12 rounded flex items-center gap-2"
-                >
-                    Buy from Notion Insider
-                    <Image
-                        width="35"
-                        height="40"
-                        alt="Notion Insider"
-                        src="notionInsider.png" />
-                </a>
-
             </div>
         </div>
     );
