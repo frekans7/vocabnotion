@@ -40,6 +40,6 @@ const Purchase = () => {
                 </a>
             </div>
         </div>
-    );
+    ); 
 }
 export default Purchase;
