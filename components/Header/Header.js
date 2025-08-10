@@ -30,7 +30,7 @@ export const Header = () => {
                     <Nav />
                     <ButtonGroup className="hidden md:block">
                         <Link
-                            href="/purchase"
+                            href="https://frekans7.lemonsqueezy.com/buy/790012c3-c837-4a4b-be1f-0401d467b019"
                             role="button"
                             className="btn btn--secondary ml-4">
                             Get Template <Icon icon="material-symbols:arrow-forward-rounded" />
