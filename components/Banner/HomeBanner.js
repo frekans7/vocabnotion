@@ -22,7 +22,7 @@ export const HomeBanner = () => {
                 {/* Appear Second */}
                 <MotionBTTContainer transition={{ delay: 0.4, duration: 0.5 }}>
                     <PageTitle className="text-center mx-auto" type="heavy">
-                        With Leitner System and the 800 Words, transcend the limits of the English language with the power of Notion!
+                        Unlock 75% of English with VocabNotion!
                     </PageTitle>
                 </MotionBTTContainer>
                 {/* Appear Third */}
