@@ -22,7 +22,7 @@ export default function Home() {
         <Layout className="">
             <SEO
                 title="VocabNotion - Leitner System with Pronunciation 🚀"
-                description="Discover VocabNotion, With Leitner System and the 800 Words, transcend the limits of the English language with the power of Notion!"
+                description="Discover VocabNotion, Unlock 75% of English with VocabNotion!"
             />
             <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
                 {/* { Page Banner } */}
